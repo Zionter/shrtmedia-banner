@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.referal {
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+#ad {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.frame-image {
+    background: transparent url() 50% 50% no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.frame-white {
+    background: #fff;
+}
+
+.frame-text {
+    font-family: Helvetica, Arial, Calibri, 'Liberation Sans', Freesans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    display: table;
+}
+
+    .frame-text.frame-white .text {
+        color: red;
+    }
+
+    .frame-text.frame-image .text {
+        color: #fff;
+        /* BACKGROUND DARK */
+    }
+
+    .frame-text .valign {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+        .frame-text .valign > .text-block {
+            padding: 0.8rem 2rem;
+            background: rgba(0,0,0,.7);
+            border-radius: 2px;
+            box-shadow: 0 7px 11px rgba(0,0,0,0.1);
+            display: inline-block;
+            line-height: 2rem;
+        }
+
+.frame-logo {
+    width: 100%;
+    height: 100%;
+}
+
+    .frame-logo .logo {
+        background: url(./img/logowide.svg) 50% 50% no-repeat;
+        background-size: 15rem;
+        width: 100%;
+        height: 100%;
+    }
+
+
+.frame-1 {
+    background-image: url(./img/1.jpg);
+    animation-name: frame-1;
+}
+
+
+@keyframes frame-1 {
+    0% {
+        visibility: visible;
+    }
+
+    2.6666% {
+        visibility: visible;
+    }
+
+    2.6667% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+.frame-2 {
+    background-image: url(./img/2.jpg);
+    animation-name: frame-2;
+}
+
+@keyframes frame-2 {
+    0%,100% {
+        visibility: hidden;
+    }
+
+    2.6666% {
+        visibility: hidden;
+    }
+
+    2.6667% {
+        visibility: visible;
+    }
+
+    4.332% {
+        visibility: visible;
+    }
+
+    4.333% {
+        visibility: hidden;
+    }
+}
+
+.frame-3 {
+    background-image: url(./img/3.jpg);
+    animation-name: frame-3;
+}
+
+@keyframes frame-3 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    4.332% {
+        visibility: hidden;
+    }
+
+    4.333% {
+        visibility: visible;
+    }
+
+    6.9997% {
+        visibility: visible;
+    }
+
+    6.9998% {
+        visibility: hidden;
+    }
+}
+
+.frame-4 {
+    background-image: url(./img/4.jpg);
+    animation-name: frame-4;
+}
+
+@keyframes frame-4 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    6.9996% {
+        visibility: hidden;
+    }
+
+    6.9997% {
+        visibility: visible;
+    }
+
+    8.6667% {
+        visibility: visible;
+    }
+
+    8.6668% {
+        visibility: hidden;
+    }
+}
+
+.frame-5 {
+    background-image: url(./img/5.jpg);
+    animation-name: frame-5;
+}
+
+@keyframes frame-5 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    8.6666% {
+        visibility: hidden;
+    }
+
+    8.6667% {
+        visibility: visible;
+    }
+
+    10.3327% {
+        visibility: visible;
+    }
+
+    10.3328% {
+        visibility: hidden;
+    }
+}
+
+.frame-6 {
+    background-image: url(./img/6.jpg);
+    animation-name: frame-6;
+}
+
+@keyframes frame-6 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    10.3327% {
+        visibility: hidden;
+    }
+
+    10.3328% {
+        visibility: visible;
+    }
+
+    12.9996% {
+        visibility: visible;
+    }
+
+    12.9997% {
+        visibility: hidden;
+    }
+}
+
+.frame-7 {
+    background-image: url(./img/7.jpg);
+    animation-name: frame-7;
+}
+
+@keyframes frame-7 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    12.9996% {
+        visibility: hidden;
+    }
+
+    12.9997% {
+        visibility: visible;
+    }
+
+    14.6666% {
+        visibility: visible;
+    }
+
+    14.6667% {
+        visibility: visible;
+    }
+}
+
+.frame-8 {
+    background-image: url(./img/8.jpg);
+    animation-name: frame-8;
+}
+
+@keyframes frame-8 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    14.6666% {
+        visibility: hidden;
+    }
+
+    14.6667% {
+        visibility: visible;
+    }
+
+    16.3336% {
+        visibility: visible;
+    }
+
+    16.3337% {
+        visibility: hidden;
+    }
+}
+
+.frame-9 {
+    background-image: url(./img/9.jpg);
+    animation-name: frame-9;
+}
+
+@keyframes frame-9 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    16.3336% {
+        visibility: hidden;
+    }
+
+    16.3337% {
+        visibility: visible;
+    }
+
+    32.0006% {
+        visibility: visible;
+    }
+
+    32.0007% {
+        visibility: hidden;
+    }
+}
+
+.frame-10 {
+    animation-name: frame-10;
+}
+
+@keyframes frame-10 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    32.0006% {
+        visibility: hidden;
+    }
+
+    32.0007% {
+        visibility: visible;
+    }
+
+    48.0007% {
+        visibility: visible;
+    }
+
+    48.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-11 {
+    animation-name: frame-11;
+}
+
+@keyframes frame-11 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    48.0007% {
+        visibility: hidden;
+    }
+
+    48.0008% {
+        visibility: visible;
+    }
+
+    64.0007% {
+        visibility: visible;
+    }
+
+    64.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-12 {
+    animation-name: frame-12;
+}
+
+@keyframes frame-12 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    64.0007% {
+        visibility: hidden;
+    }
+
+    64.0008% {
+        visibility: visible;
+    }
+
+    80.0007% {
+        visibility: visible;
+    }
+
+    80.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-13 {
+    animation-name: frame-13;
+}
+
+@keyframes frame-13 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    80.0007% {
+        visibility: hidden;
+    }
+
+    80.0008% {
+        visibility: visible;
+    }
+
+    98.0007% {
+        visibility: visible;
+    }
+
+    98.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+}
+
+
+/**  HORISONTAL **/
+
+@media screen and (max-width: 730px) and (max-height: 100px) {
+    .frame-text {
+        font-size: 0.8rem;
+    }
+
+        .frame-text .valign > .text-block {
+            padding: 0.4rem 1rem;
+            line-height: 1.1rem;
+        }
+
+    .frame-logo .logo {
+        background-size: 8rem;
+    }
+}
+
+/**  VERTICAL **/
+
+@media screen and (min-width: 0) and (max-width: 350px) and (max-height: 610px) {
+    .frame-logo .logo {
+        background-size: 6rem;
+        background-image: url(./img/logo.svg);
+    }
+
+    .frame-text {
+        font-size: 0.8rem;
+    }
+
+        .frame-text .valign > .text-block {
+            padding: 0.3rem 0.9rem;
+            line-height: 1.3rem;
+        }
+}
+
+@media screen and (max-width: 125px) {
+
+    .frame-text {
+        font-size: 0.75rem;
+    }
+
+        .frame-text .valign > .text-block {
+            padding: 0.2rem 0.2rem;
+            width: 100%;
+        }
+
+    .frame-logo .logo {
+        background-size: 4rem;
+    }
+
+}
+
+@media screen and (max-height:61px) {
+    .br {
+        display: none;
+    }
+}
