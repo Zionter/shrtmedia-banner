@@ -38,6 +38,10 @@ html, body {
     background: #fff;
 }
 
+.frame-brand_dark {
+    background:#30333b
+}
+
 .frame-text {
     font-family: Helvetica, Arial, Calibri, 'Liberation Sans', Freesans, sans-serif;
     font-size: 1.2rem;
@@ -51,9 +55,9 @@ html, body {
         color: red;
     }
 
-    .frame-text.frame-image .text {
+    .frame-text.frame-image .text,
+    .frame-text.frame-brand_dark .text {
         color: #fff;
-        /* BACKGROUND DARK */
     }
 
     .frame-text .valign {
@@ -297,7 +301,6 @@ html, body {
 }
 
 .frame-9 {
-    background-image: url(./img/9.jpg);
     animation-name: frame-9;
 }
 
@@ -314,17 +317,18 @@ html, body {
         visibility: visible;
     }
 
-    32.0006% {
+    27.0006% {
         visibility: visible;
     }
 
-    32.0007% {
+    27.0007% {
         visibility: hidden;
     }
 }
 
 .frame-10 {
     animation-name: frame-10;
+     background-image: url(./img/9.jpg);
 }
 
 @keyframes frame-10 {
@@ -332,25 +336,26 @@ html, body {
         visibility: hidden;
     }
 
-    32.0006% {
+    27.0006% {
         visibility: hidden;
     }
 
-    32.0007% {
+    27.0007% {
         visibility: visible;
     }
 
-    48.0007% {
+    29.0007% {
         visibility: visible;
     }
 
-    48.0008% {
+    29.0008% {
         visibility: hidden;
     }
 }
 
 .frame-11 {
     animation-name: frame-11;
+    background-image: url(./img/10.jpg);
 }
 
 @keyframes frame-11 {
@@ -358,25 +363,26 @@ html, body {
         visibility: hidden;
     }
 
-    48.0007% {
+    29.0007% {
         visibility: hidden;
     }
 
-    48.0008% {
+    29.0008% {
         visibility: visible;
     }
 
-    64.0007% {
+    31.0007% {
         visibility: visible;
     }
 
-    64.0008% {
+    31.0008% {
         visibility: hidden;
     }
 }
 
 .frame-12 {
     animation-name: frame-12;
+    background-image: url(./img/11.jpg);
 }
 
 @keyframes frame-12 {
@@ -384,25 +390,26 @@ html, body {
         visibility: hidden;
     }
 
-    64.0007% {
+    31.0007% {
         visibility: hidden;
     }
 
-    64.0008% {
+    31.0008% {
         visibility: visible;
     }
 
-    80.0007% {
+    33.0007% {
         visibility: visible;
     }
 
-    80.0008% {
+    33.0008% {
         visibility: hidden;
     }
 }
 
 .frame-13 {
     animation-name: frame-13;
+    background-image: url(./img/12.jpg);
 }
 
 @keyframes frame-13 {
@@ -410,22 +417,238 @@ html, body {
         visibility: hidden;
     }
 
-    80.0007% {
+    33.0007% {
         visibility: hidden;
     }
 
-    80.0008% {
+    33.0008% {
         visibility: visible;
     }
 
-    98.0007% {
+    35.0007% {
         visibility: visible;
     }
 
-    98.0008% {
+    35.0008% {
         visibility: hidden;
     }
 }
+
+.frame-14 {
+    animation-name: frame-14;
+    background-image: url(./img/13.jpg);
+}
+
+@keyframes frame-14 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    35.0007% {
+        visibility: hidden;
+    }
+
+    35.0008% {
+        visibility: visible;
+    }
+
+    37.0007% {
+        visibility: visible;
+    }
+
+    37.0008% {
+        visibility: hidden;
+    }
+}
+
+
+.frame-15 {
+    animation-name: frame-15;
+    background-image: url(./img/14.jpg);
+}
+
+@keyframes frame-15 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    37.0007% {
+        visibility: hidden;
+    }
+
+    37.0008% {
+        visibility: visible;
+    }
+
+    39.0007% {
+        visibility: visible;
+    }
+
+    39.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-16 {
+    animation-name: frame-16;
+     background-image: url(./img/15.jpg);
+}
+
+@keyframes frame-16 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    39.0007% {
+        visibility: hidden;
+    }
+
+    39.0008% {
+        visibility: visible;
+    }
+
+    41.0007% {
+        visibility: visible;
+    }
+
+    41.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-18 {
+    animation-name: frame-18;
+}
+
+@keyframes frame-18 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    41.0007% {
+        visibility: hidden;
+    }
+
+    41.0008% {
+        visibility: visible;
+    }
+
+    52.0007% {
+        visibility: visible;
+    }
+
+    52.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-19 {
+    animation-name: frame-19;
+     background-image: url(./img/19.jpg);
+}
+
+@keyframes frame-19 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    52.0007% {
+        visibility: hidden;
+    }
+
+    52.0008% {
+        visibility: visible;
+    }
+
+    63.0007% {
+        visibility: visible;
+    }
+
+    63.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-20 {
+    animation-name: frame-20;
+}
+
+@keyframes frame-20 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    63.0007% {
+        visibility: hidden;
+    }
+
+    63.0008% {
+        visibility: visible;
+    }
+
+    74.0007% {
+        visibility: visible;
+    }
+
+    74.0008% {
+        visibility: hidden;
+    }
+}
+
+
+.frame-21 {
+    animation-name: frame-21;
+}
+
+@keyframes frame-21 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    74.0007% {
+        visibility: hidden;
+    }
+
+    74.0008% {
+        visibility: visible;
+    }
+
+    85.0007% {
+        visibility: visible;
+    }
+
+    85.0008% {
+        visibility: hidden;
+    }
+}
+
+.frame-22 {
+    animation-name: frame-22;
+}
+
+@keyframes frame-22 {
+    0%, 100% {
+        visibility: hidden;
+    }
+
+    85.0007% {
+        visibility: hidden;
+    }
+
+    85.0008% {
+        visibility: visible;
+    }
+
+    99.0007% {
+        visibility: visible;
+    }
+
+    99.0008% {
+        visibility: hidden;
+    }
+}
+
+
 
 .frame {
     visibility: hidden;
