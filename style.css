@@ -39,7 +39,7 @@ html, body {
 }
 
 .frame-brand_dark {
-    background:#30333b
+    background: #30333b;
 }
 
 .frame-text {
@@ -328,7 +328,7 @@ html, body {
 
 .frame-10 {
     animation-name: frame-10;
-     background-image: url(./img/9.jpg);
+    background-image: url(./img/9.jpg);
 }
 
 @keyframes frame-10 {
@@ -491,7 +491,7 @@ html, body {
 
 .frame-16 {
     animation-name: frame-16;
-     background-image: url(./img/15.jpg);
+    background-image: url(./img/15.jpg);
 }
 
 @keyframes frame-16 {
@@ -544,7 +544,7 @@ html, body {
 
 .frame-19 {
     animation-name: frame-19;
-     background-image: url(./img/19.jpg);
+    background-image: url(./img/19.jpg);
 }
 
 @keyframes frame-19 {
@@ -701,15 +701,19 @@ html, body {
         font-size: 0.75rem;
     }
 
-        .frame-text .valign > .text-block {
-            padding: 0.2rem 0.2rem;
-            width: 100%;
-        }
+    .frame-text_long {
+        font-size: 0.48rem;
+        font-weight: bolder;
+    }
+
+    .frame-text .valign > .text-block {
+        padding: 0.2rem 0.2rem;
+        width: 100%;
+    }
 
     .frame-logo .logo {
         background-size: 4rem;
     }
-
 }
 
 @media screen and (max-height:61px) {
