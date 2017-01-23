@@ -86,6 +86,7 @@ html, body {
         height: 100%;
     }
 
+/*#region animation*/
 
 .frame-1 {
     background-image: url(./img/1.jpg);
@@ -545,106 +546,174 @@ html, body {
 .frame-19 {
     animation-name: frame-19;
     background-image: url(./img/19.jpg);
+    -webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -moz-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -o-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 @keyframes frame-19 {
     0%, 100% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 
     52.0007% {
         visibility: hidden;
+        transform: translate(0, 3rem) scale(2);
     }
 
     52.0008% {
         visibility: visible;
     }
 
-    63.0007% {
+    55% {
+        transform: translate(0, 0rem) scale(0.89);
+    }
+
+    56% {
+        transform: scale(1);
+    }
+
+    68.0007% {
         visibility: visible;
     }
 
-    63.0008% {
+    68.0008% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 }
 
 .frame-20 {
     animation-name: frame-20;
+    -webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -moz-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -o-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 @keyframes frame-20 {
     0%, 100% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 
-    63.0007% {
+    68.0007% {
         visibility: hidden;
+        transform: translate(0, 3rem) scale(2);
     }
 
-    63.0008% {
+    68.0008% {
         visibility: visible;
     }
 
-    74.0007% {
+    71% {
+        transform: translate(0, 0rem) scale(0.89);
+    }
+
+    72% {
+        transform: scale(1);
+    }
+
+    79.0007% {
         visibility: visible;
     }
 
-    74.0008% {
+    79.0008% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 }
 
 
 .frame-21 {
     animation-name: frame-21;
+    -webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -moz-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -o-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 @keyframes frame-21 {
     0%, 100% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 
-    74.0007% {
+    79.0007% {
         visibility: hidden;
+        transform: translate(0, 3rem) scale(2);
     }
 
-    74.0008% {
+    79.0008% {
         visibility: visible;
     }
 
-    85.0007% {
+    83% {
+        transform: translate(0, 0rem) scale(0.89);
+    }
+
+    84% {
+        transform: scale(1);
+    }
+
+    90.0007% {
         visibility: visible;
     }
 
-    85.0008% {
+    90.0008% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 }
 
 .frame-22 {
     animation-name: frame-22;
+    -webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -moz-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -o-transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 @keyframes frame-22 {
     0%, 100% {
         visibility: hidden;
+        transform: translate(0, 0);
     }
 
-    85.0007% {
+    90.0007% {
         visibility: hidden;
+        transform: translate(0, 3rem) scale(2);
     }
 
-    85.0008% {
+    90.0008% {
         visibility: visible;
     }
 
-    99.0007% {
+    92% {
+        background-position-y: 50%;
+    }
+
+    93% {
+        transform: translate(0, 0rem) scale(0.89);
+        background-position-y: 100%;
+    }
+
+
+    95.0007% {
         visibility: visible;
+        transform: scale(1);
     }
 
     99.0008% {
         visibility: hidden;
+        transform: translate(0, 0);
+        background-position-y: 50%;
     }
 }
 
@@ -656,15 +725,16 @@ html, body {
     height: 100%;
     position: absolute;
     animation-iteration-count: infinite;
-    animation-duration: 9s;
+    animation-duration: 14s;
 }
 
+/*#endregion animation*/
 
 /**  HORISONTAL **/
 
 @media screen and (max-width: 730px) and (max-height: 100px) {
     .frame-text {
-        font-size: 0.8rem;
+        font-size: 1.8rem;
     }
 
         .frame-text .valign > .text-block {
@@ -686,13 +756,21 @@ html, body {
     }
 
     .frame-text {
-        font-size: 0.8rem;
+        font-size: 1.7rem;
     }
 
-        .frame-text .valign > .text-block {
-            padding: 0.3rem 0.9rem;
-            line-height: 1.3rem;
-        }
+    .frame-text_long {
+        font-size: 0.86rem;
+    }
+
+    .frame-text .valign > .text-block {
+        padding: 0.3rem 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .frame-19 {
+        background-position-y: bottom;
+    }
 }
 
 @media screen and (max-width: 125px) {
@@ -702,7 +780,7 @@ html, body {
     }
 
     .frame-text_long {
-        font-size: 0.48rem;
+        font-size: 0.48rem !important;
         font-weight: bolder;
     }
 
@@ -714,10 +792,21 @@ html, body {
     .frame-logo .logo {
         background-size: 4rem;
     }
+
+    .frame-19 {
+        background-position-y: top;
+    }
 }
 
 @media screen and (max-height:61px) {
     .br {
         display: none;
+    }
+}
+
+@media screen and (max-height : 500px ) {
+
+    .frame-19 {
+        background-position-y: top;
     }
 }
