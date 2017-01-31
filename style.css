@@ -702,7 +702,7 @@ html, body {
     }
 
     .frame-text_long {
-        font-size: 0.86rem;
+        font-size: 0.96rem;
     }
 
     .frame-text .valign > .text-block {
@@ -722,7 +722,7 @@ html, body {
     }
 
     .frame-text_long {
-        font-size: 0.48rem !important;
+        font-size: 0.58rem !important;
         font-weight: bolder;
     }
 
